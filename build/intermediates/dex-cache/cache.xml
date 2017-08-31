@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_395a9ad124fb080c7b3b772500395cfa9ab0a806.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\molima\Desktop\GiseleBit VOIP\libs\sinch-android-rtc-3.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b1e4ab498c73872ea751de3d0e493f7ca8b83e5">
+        <dex dex="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\pre-dexed\debug\sinch-android-rtc-3.9.8_1f647c5875579db7b4928f08a5f37bc623efa9ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_741b54f6cb29dd8fea5d90a32c417877fe202b88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\molima\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_c8dec8a1ce8af4978c6da02bbec6f748d05acfbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\molima\Desktop\GiseleBit VOIP\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_f7f320d084bd78cec99c9c4ac9a797c0f827cfb6.jar" />
+    </item>
+
+</items>

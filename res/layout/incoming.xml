@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="5"
+              android:background="#ffffffff"
+            android:keepScreenOn="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#fffafafa"
+            >
+
+        <TextView
+                android:id="@+id/remoteUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="7dp"
+                android:text="Sample user"
+                android:textColor="@color/sinch_purple"
+                android:textSize="28sp"/>
+
+        <TextView
+                android:id="@+id/callState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Recebendo ligação"
+                android:textColor="@color/sinch_purple"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                />
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/callbg"
+            android:padding="0dip"
+            android:layout_weight="2.36"
+            android:contentDescription="Call background">
+
+    </ImageView>
+
+    <TextView
+        android:text="Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        android:layout_weight="0.65"
+        android:textSize="30sp"
+        android:textColor="@color/sinch_purple"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <RelativeLayout
+            android:id="@+id/bottomPanel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/greyish"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                    android:id="@+id/answerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_accept"
+                    />
+            <Button
+                    android:id="@+id/declineButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_decline"
+                    android:layout_toRightOf="@+id/answerButton"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
